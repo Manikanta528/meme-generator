@@ -5,3 +5,25 @@
 body{
     font-family: 'Karla', sans-serif;
 }
+.header{
+    width: 100%;
+    height: 70px;
+    padding: 0px 40px;
+    background: rgb(103,34,128);
+    background: linear-gradient(90deg, rgba(103,34,128,1) 0%, rgba(166,38,211,1) 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 12px;
+    font-size: 1rem;
+}
+.tf-icon{
+    height: 40px;
+    width: 40px;
+}
